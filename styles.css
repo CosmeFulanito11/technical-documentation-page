@@ -1,0 +1,106 @@
+body {
+  min-width: 290px;
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid rgba(0, 22, 22, 0.4);
+  background-color: #f8f8f8;
+  overflow-y: auto;
+}
+
+#navbar header {
+  color: black;
+  margin: 20px 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+#navbar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#navbar li {
+  border-top: 1px solid #ddd;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 12px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#navbar a:hover {
+  background-color: #e0e0e0;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 50px;
+  max-width: 650px;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+
+.main-section article {
+  color: #4d4e53;
+  margin: 15px 0;
+  font-size: 1em;
+}
+
+.main-section ul {
+  margin-left: 20px;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  overflow-x: auto;
+  border-left: 3px solid #ccc;
+}
+
+code {
+  font-family: Consolas, monospace;
+  font-size: 0.95em;
+  white-space: pre-wrap;
+}
+
+/* Responsive design */
+
+@media only screen and (max-width: 815px) {
+  #navbar {
+    position: static;
+    width: 100%;
+    height: auto;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    max-height: none;
+  }
+  #main-doc {
+    position: static;
+    margin: 0;
+    padding: 20px;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentación Técnica HTML5</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>HTML5 Documentación</header>
+        <ul>
+            <li><a class="nav-link" href="#Introducción">Introducción</a></li>
+            <li><a class="nav-link" href="#Características_principales">Características principales</a></li>
+            <li><a class="nav-link" href="#Estructura_básica_de_un_documento_HTML5">Estructura básica de un documento
+                    HTML5</a></li>
+            <li><a class="nav-link" href="#Buenas_prácticas">Buenas prácticas</a></li>
+            <li><a class="nav-link" href="#Recursos_recomendados">Recursos recomendados</a></li>
+        </ul>
+    </nav>
+
+
+    <main id="main-doc">
+        <section class="main-section" id="Introducción">
+            <header>Introducción</header>
+            <article>
+                <p>HTML5 es la última versión del lenguaje estándar para la creación de páginas web.</p>
+                <p>Fue desarrollado con el objetivo de mejorar la interoperabilidad entre navegadores, simplificar el
+                    desarrollo
+                    de aplicaciones web y brindar soporte nativo para elementos multimedia como audio, video y gráficos.
+                </p>
+                <p>Esta versión representa una evolución significativa respecto a versiones anteriores, incorporando
+                    nuevas
+                    etiquetas semánticas, APIs potentes y un enfoque centrado en la accesibilidad y la experiencia del
+                    usuario.
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Características_principales">
+            <header>Características principales</header>
+            <article>
+                <p>HTML5 introduce una variedad de características que modernizan el desarrollo web:</p>
+                <ul>
+                    <li><strong>Etiquetas semánticas</strong>: como <code>&lt;header&gt;</code>,
+                        <code>&lt;section&gt;</code>,
+                        <code>&lt;article&gt;</code>, y <code>&lt;footer&gt;</code>, que mejoran la estructura y
+                        comprensión del
+                        contenido.
+                    </li>
+                    <li><strong>Soporte multimedia nativo</strong>: elementos como <code>&lt;audio&gt;</code> y
+                        <code>&lt;video&gt;</code> permiten integrar contenido sin plugins externos.
+                    </li>
+                    <li><strong>Formularios mejorados</strong>: nuevos tipos de entrada (<code>email</code>,
+                        <code>date</code>,
+                        <code>range</code>, etc.) y validación incorporada.
+                    </li>
+                    <li><strong>APIs integradas</strong>: como Web Storage, Canvas, WebSockets y Geolocation, que
+                        permiten
+                        funcionalidades avanzadas directamente en el navegador.</li>
+                    <li><strong>Compatibilidad móvil</strong>: pensado desde su base para adaptarse mejor a diferentes
+                        dispositivos y resoluciones.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="main-section" id="Estructura_básica_de_un_documento_HTML5">
+            <header>Estructura básica de un documento HTML5</header>
+            <article>
+                <p>Un documento HTML5 se inicia con una declaración simple de tipo de documento y una estructura clara.
+                    A
+                    continuación, un ejemplo mínimo:</p>
+                <pre>
+        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Título de la página&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+      &lt;h1&gt;Bienvenido a HTML5&lt;/h1&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+      &lt;section&gt;
+        &lt;p&gt;Contenido principal aquí.&lt;/p&gt;
+      &lt;/section&gt;
+    &lt;/main&gt;
+    &lt;footer&gt;
+      &lt;p&gt;© 2025 Mi Sitio Web&lt;/p&gt;
+    &lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+        </code>
+      </pre>
+                <p>Esta estructura básica incluye elementos clave como <code>&lt;!DOCTYPE html&gt;</code>, etiquetas
+                    semánticas
+                    y metadatos esenciales para la correcta visualización y accesibilidad.</p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Buenas_prácticas">
+            <header>Buenas prácticas</header>
+            <article>
+                <p>Aplicar buenas prácticas al escribir HTML5 mejora la mantenibilidad, accesibilidad y rendimiento del
+                    sitio
+                    web.</p>
+                <p>Algunas recomendaciones:</p>
+                <ul>
+                    <li>Usar etiquetas semánticas para mejorar la estructura del contenido.</li>
+                    <li>Mantener una indentación coherente y un código limpio.</li>
+                    <li>Agregar atributos <code>alt</code> en imágenes para accesibilidad.</li>
+                    <li>Separar el contenido del estilo y comportamiento, utilizando CSS y JavaScript en archivos
+                        externos.</li>
+                    <li>Validar el código HTML con herramientas como el <a href="https://validator.w3.org/"
+                            target="_blank" rel="noopener noreferrer">validador de W3C</a>.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="main-section" id="Recursos_recomendados">
+            <header>Recursos recomendados</header>
+            <article>
+                <p>Para profundizar tus conocimientos en HTML5 te recomendamos los siguientes recursos:</p>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank"
+                            rel="noopener noreferrer">MDN Web
+                            Docs – HTML</a></li>
+                    <li>W3Schools – HTML5 Tutorial</li>
+                    <li>HTML5 Rocks (archivado)</li>
+                    <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">Validador de HTML
+                            – W3C</a>
+                    </li>
+                    <li>Libros como <em>HTML5: Up and Running</em> de Mark Pilgrim</li>
+                </ul>
+                <p>Además, practicar con ejercicios y proyectos reales te ayudará a afianzar lo aprendido.</p>
+            </article>
+        </section>
+    </main>
+
+</body>
+
+</html>
